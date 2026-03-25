@@ -1,0 +1,8 @@
+{
+  "name": "unwank",
+  "description": "Plays random sound effects when Claude Code finishes a response or requests permissions",
+  "version": "1.0.0",
+  "author": {
+    "name": "Bogdan Chayka"
+  }
+}
