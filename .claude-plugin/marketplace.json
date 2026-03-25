@@ -10,7 +10,7 @@
       "name": "unwank",
       "description": "Claude code plugin that keeps you focused on what matters with encouraging audio effects.",
       "category": "productivity",
-      "source": "."
+      "source": "./"
     }
   ]
 }
