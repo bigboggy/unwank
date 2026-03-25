@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "unwank",
+  "description": "Claude code plugin that keeps you focused",
+  "owner": {
+    "name": "Bogdan Chayka"
+  },
+  "plugins": [
+    {
+      "name": "unwank",
+      "description": "Claude code plugin that keeps you focused on what matters with encouraging audio effects.",
+      "category": "productivity",
+      "source": "."
+    }
+  ]
+}
