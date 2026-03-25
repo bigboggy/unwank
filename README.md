@@ -25,4 +25,8 @@ The plugin hooks into two Claude Code events:
 - **Stop** — plays a random sound when Claude finishes a response
 - **Notification** — plays a random sound when Claude requests permission
 
-Sounds are played asynchronously via `afplay` (macOS only).
+Sounds are played asynchronously and work cross-platform:
+
+- **macOS** — `afplay` (built-in)
+- **Linux** — `paplay` or `aplay` (via `ffmpeg` for MP3 decoding), or `ffplay`
+- **Windows** (Git Bash/MSYS2/Cygwin) — PowerShell `SoundPlayer`
