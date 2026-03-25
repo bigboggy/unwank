@@ -1,5 +1,17 @@
 {
   "hooks": {
+    "ProjectInit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/sounds/play-random.sh",
+            "async": true
+          }
+        ]
+      }
+    ],
     "Stop": [
       {
         "matcher": "",
